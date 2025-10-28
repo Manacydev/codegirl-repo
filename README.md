@@ -1,6 +1,8 @@
 # Phishing URL Detector
 This project is a web-based application that uses a machine learning model to detect phishing websites. It provides a simple user interface to enter a URL and get a prediction on whether it's a safe or a phishing link.
 
+![image alt](https://github.com/Manacydev/codegirl-repo/blob/main/Screenshot%20(54).png?raw=true)
+
 ## Features
 Real-time Phishing Detection: Analyzes URLs in real-time to identify potential phishing threats.
 
