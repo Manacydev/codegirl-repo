@@ -45,6 +45,26 @@ And many others.
 
 **Machine Learning:** Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn
 
+## App Structure
+
+ ```
+codegirl-repo/
+│
+├── app.py                  # Main Flask application logic
+|        
+│
+├── model/
+│   ├── Phishing_URL_detection.pkl  # The trained machine learning model
+│   └── feature_names.pkl           # The list of feature names used by the model
+│
+|
+├──Phishing_URL_detection.ipynb # Jupyter Notebook for model training and exploration
+│
+|
+└── templates/
+    └── index.html          # HTML file for the user interface, also contains CSS and JS
+ ```
+
 ## Model Training
 The machine learning model was trained using the Phishing_URL_detection.ipynb notebook. The notebook contains the code for:
 
